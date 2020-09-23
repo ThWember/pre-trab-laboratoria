@@ -7,7 +7,6 @@ let test = prompt("Quer iniciar o teste?\nResponda sim para iniciar ou não para
 if (test == "não") {
     alert("Obrigada");
     prompt.close();
-    closePage();
 }
 
 let question1 = prompt("1. O que é CSS?\na- Linguagem de marcação\nb- Folha de estilo\nc- Linguagem de programação");

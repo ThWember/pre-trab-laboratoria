@@ -24,7 +24,7 @@ header{
     padding: 10px;
     border-radius: 15px;
     border-color: none;
-    align-items: center;
+    text-align: center;
     box-shadow: 0 0 6px 2px;
     background-color: #F9F6F5;
 }
@@ -33,7 +33,7 @@ header{
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 20px;
 }
 
