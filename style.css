@@ -19,8 +19,12 @@ body{
     max-width: 80%;
     padding: 10px;
     background-color: #F9F6F5;
-    border-radius: 10px solid;
-    align-items: center;
-    border: none;
+    border-radius: 15px;
+    border-color: none;
     box-shadow: 0 0 8px 2px;
+}
+
+.result{
+    display: inline;
+    align-items: center;
 }
