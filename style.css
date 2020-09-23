@@ -25,15 +25,15 @@ header{
     border-radius: 15px;
     border-color: none;
     text-align: center;
-    box-shadow: 0 0 6px 2px;
-    background-color: #F9F6F5;
+    box-shadow: 1 1 6px 2px;
+    background-color: #ffffff;
 }
 
 .result{
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border-radius: 20px;
 }
 
@@ -41,6 +41,7 @@ header{
     width: 40vw;
     height: 40vh;
     padding: 2%;
+    margin-right: 1%;
     background-color: #A0F47D;
     border-radius: 15px;
 }
@@ -49,6 +50,7 @@ header{
     width: 40vw;
     height: 40vh;
     padding: 2%;
-    background-color: tomato;
+    margin-left: 1%;    
+    background-color:#EC7063;
     border-radius: 15px;
 }
