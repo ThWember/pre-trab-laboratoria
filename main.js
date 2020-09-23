@@ -1,17 +1,14 @@
 let name = prompt("Coloque o seu nome");
 
-document.getElementById("user").innerHTML = "OLÁ, " + name;
+document.getElementById("user").innerHTML = "Olá, " + name + "!";
 
 let test = prompt("Quer iniciar o teste?\nResponda sim para iniciar ou não para fechar a página.");
 
 if (test == "não") {
-    window.close()
+    alert("Obrigada");
+    prompt.close();
+    closePage();
 }
-
-/*if (test =! "sim"||"não") {
-    alert ("Usar apenas letras minúsculas");
-    test = prompt("Quer iniciar o teste?\nResponda sim para iniciar ou não para fechar a página.");
-}*/
 
 let question1 = prompt("1. O que é CSS?\na- Linguagem de marcação\nb- Folha de estilo\nc- Linguagem de programação");
 
