@@ -1,8 +1,17 @@
 let name = prompt("Coloque o seu nome");
 
-document.getElementById("user").innerHTML = "Olá, " + name;
+document.getElementById("user").innerHTML = "OLÁ, " + name;
 
 let test = prompt("Quer iniciar o teste?\nResponda sim para iniciar ou não para fechar a página.");
+
+if (test == "não") {
+    window.close()
+}
+
+/*if (test =! "sim"||"não") {
+    alert ("Usar apenas letras minúsculas");
+    test = prompt("Quer iniciar o teste?\nResponda sim para iniciar ou não para fechar a página.");
+}*/
 
 let question1 = prompt("1. O que é CSS?\na- Linguagem de marcação\nb- Folha de estilo\nc- Linguagem de programação");
 
@@ -19,7 +28,6 @@ if (question1 == "c") {
 } else {
     document.getElementById("question2-wrong").innerHTML = "Questão 2";
 }
-
 
 let question3 = prompt("3. Qual dos seguintes elementos não possui tag de fechamento?\na- img\nb- p\nc- h")
 
